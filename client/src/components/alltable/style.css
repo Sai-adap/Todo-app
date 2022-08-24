@@ -1,0 +1,67 @@
+.header{
+    height: 15vh;
+    border: 5px solid green;
+}
+.mainpage-name{
+    text-align:right;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+/* navbar */
+.navbar{
+    height: 82vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 5px solid green;
+    text-align: center;
+    background-color: green;
+}
+.logout{
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.create-one{
+    border-width: 30px;
+    border-color: blueviolet;
+    background-color: blueviolet;
+    font-style: normal;
+}
+.create-text{
+    border-width: 20px;
+    border-color: blueviolet;
+    font-style: bold;
+}
+
+/* for creating */
+.create-one{
+    position: absolute;
+    top:120px;
+    right: 20px;
+    border: 1px solid green;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+/* list table */
+.list-table{
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    text-align: center;
+    width: 1000px;
+    height: 100px;
+
+}
+.create-page{
+    position: absolute;
+    top: 200px;
+    left:600px
+}
+.input-activity{
+    padding: 10px;
+    margin-right: 10px;
+}
